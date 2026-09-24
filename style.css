@@ -1,0 +1,33 @@
+.calc {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 75px;
+  height: 75px;
+  font-size: 20px;
+}
+
+.display {
+  width: 300 px;
+  height: 50px;
+  outline: 1px solid grey;
+  display: flex;
+  align-items: end;
+  justify-content: right;
+}
+
+div.row4 {
+  display: flex;
+  justify-content: right;
+  gap: 5px;
+}
